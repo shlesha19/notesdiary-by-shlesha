@@ -1,4 +1,4 @@
-var container2 = document.getElementsByClassName('container')[0];
+var container2 = document.getElementsByClassName('container2')[0];
 var container3 = document.getElementsByClassName('container3')[0];
 var checkIcon = document.getElementById('check-icon');
 var xIcon = document.getElementById('x-icon');
@@ -28,7 +28,7 @@ function createNote(){
 
   node1.innerHTML = noteText;
 
-  node1.setAttribute("style","width:1000px; height:300px; font-size:35px; padding:25px; margin-top:10px; overflow:hidden; box-shadow:0px 10px 24px 0px rgba(0,0,0,0.75)");
+  node1.setAttribute("style","width:250px; height:300px; font-size:35px; padding:25px; margin-top:10px; overflow:hidden; box-shadow:0px 10px 24px 0px rgba(0,0,0,0.75)");
 
   node1.style.margin = margin();
   node1.style.rotate = rotate();
