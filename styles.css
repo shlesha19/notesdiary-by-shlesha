@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #c68c53a8;
+  background: linear-gradient(purple,pink);
   font-family: "Architects Daughter";
   font-size:24px;
 }
