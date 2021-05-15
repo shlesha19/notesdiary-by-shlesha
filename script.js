@@ -29,6 +29,8 @@ function createNote(){
   node1.innerHTML = noteText;
 
   node1.setAttribute("style","width:250px; height:250px; font-size:26px; padding:25px; margin-top:10px; overflow:hidden; box-shadow:0px 10px 24px 0px rgba(0,0,0,0.75)");
+  node1.style.margin = margin();
+  node1.style.rotate = rotate();
   node1.style.background = color();
 
   node0.appendChild(node1);
@@ -50,7 +52,7 @@ function rotate() {
     'rotate(-5deg)',
     'rotate(-10deg)'
   ];
-  return random_rotate[Math.floor(Math.random() * random_margin.lenght)];
+  return random_rotate[Math.floor(Math.random() * random_rotate.lenght)];
 }
 function color() {
   var random_color = [
