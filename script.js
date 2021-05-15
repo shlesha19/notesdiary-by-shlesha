@@ -28,7 +28,7 @@ function createNote(){
 
   node1.innerHTML = noteText;
 
-  node1.setAttribute("style","width:250px; height:300px; font-size:35px; padding:25px; margin-top:10px; overflow:hidden; box-shadow:0px 10px 24px 0px rgba(0,0,0,0.75)");
+  node1.setAttribute("style","width:450px; height:300px; font-size:35px; padding:25px; margin-top:10px; overflow:hidden; box-shadow:0px 10px 24px 0px rgba(0,0,0,0.75)");
 
   node1.style.margin = margin();
   node1.style.rotate = rotate();
